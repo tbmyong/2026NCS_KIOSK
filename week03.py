@@ -1,4 +1,6 @@
-import numpy as np
+import pandas as np
+import pandas as pd
+
 data = [ 10, 20, 30, 40]
-average = np.mean(data)
+average = pd.Series(data).mean()
 print(average)
