@@ -8,3 +8,13 @@ items = {'a': [100, 80, 90],
 
 df_items = pd.DataFrame(items, index=[1,2,3])
 print(df_items)
+
+
+items = [
+    [100, 95, 10],
+    [80, 75, 80],
+    [90, 85, 90]
+]
+
+df_items = pd.DataFrame(items, index=[1,2,3], columns=['a','b','c'])
+print(df_items)
